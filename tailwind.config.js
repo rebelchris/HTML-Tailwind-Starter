@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       colors: {
         'daily-dev-tips': "#F89283"
+      },
+      fontFamily: {
+        'press-start': ['"Press Start 2P"', 'cursive']
       }
     },
   },
