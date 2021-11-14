@@ -1,21 +1,22 @@
 module.exports = {
+  mode: 'jit',
   purge: {
     enabled: true,
-    content: ["src/*.html"],
+    content: ['src/*.html'],
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
-        'daily-dev-tips': "#F89283"
+        'daily-dev-tips': '#F89283',
       },
       fontFamily: {
-        'press-start': ['"Press Start 2P"', 'cursive']
-      }
+        'press-start': ['"Press Start 2P"', 'cursive'],
+      },
     },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};
