@@ -19,7 +19,13 @@ Next up we can run the dev server:
 npm run dev
 ```
 
-And you're website will start up.
+And your website will start up.
+
+**Note - make sure to install live-server globally as a dependancy or it will not work**
+
+```bash
+npm install -g live-server
+```
 
 ## Modifying the project
 
