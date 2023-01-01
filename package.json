@@ -15,18 +15,17 @@
     "watch": "npm-watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "postcss styles.css -o src/styles.css",
-    "dev": "concurrently \"npm run build && live-server src --port=8080\" \"npm run watch\""
+    "dev": "concurrently \"npx live-server src --port=8080\" \"npx tailwindcss -i ./styles.css -o ./src/styles.css --watch\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "autoprefixer": "^10.2.4",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^3.1.4"
   },
   "devDependencies": {
-    "concurrently": "^7.2.2",
-    "npm-watch": "^0.11.0"
+    "tailwindcss": "^3.1.4",
+    "autoprefixer": "^10.2.4",
+    "postcss-cli": "^8.3.1",
+    "concurrently": "^7.2.2"
   }
 }
