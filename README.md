@@ -21,12 +21,6 @@ npm run dev
 
 And your website will start up.
 
-**Note - make sure to install live-server globally as a dependancy or it will not work**
-
-```bash
-npm install -g live-server
-```
-
 ## Modifying the project
 
 You can then modify the `tailwind.config.js` for your own custom colors if needed
@@ -36,3 +30,9 @@ And modify the `index.html` inside the `src` directory.
 
 If you're interested to read more about this project.
 Check out the article I wrote on [HTML Tailwind starter](https://daily-dev-tips.com/posts/plain-html-starter-with-tailwind-css/)
+
+## Vscode Extentions for better experiance
+
+- Tailwind CSS IntelliSense
+- Prettier - Code formatter
+- PostCSS Language Support
